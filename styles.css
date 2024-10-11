@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+input[type="number"] {
+    width: 60px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    right: 0px;
+    float: right;
+}
+button {
+    background-color: rgb(243, 168, 29);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bsput{
+    width: 100px;
+    background-color: grey;
+    height: 30px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Net Pay Calculator</title>
+      </head>
+      <body>
+        <h1>NET PAY CALCULATOR</h1>
+        <p>Enter the gross salary below amount to calculate your net amount.</p>
+
+        <h2>Net Pay Calculator</h2>
+        <div class="form">
+          <form id="calculate">
+            <div class="bsSal">
+              <label for="basic_salary">Basic salary:</label>
+            </div>
+            <div class="bsput"> <input type="number" id="basic_salary" /> </div>
+            <div id="bene">
+              <label for="benefits">Benefits:</label>
+            </div>
+            <div class="bsput"><input type="number" id="benefits" /></div>
+            <button type="submit">calculate</button>
+          </form>
+        </div>
+
+        <h3>Results:</h3>
+        <table>
+          <tr>
+            <th>Description</th>
+            <th>KES</th>
+          </tr>
+          <tr>
+            <td>Gross Salary</td>
+            <td id="grossSalary"></td>
+          </tr>
+          <tr>
+            <td>NSSF</td>
+            <td id="nssf"></td>
+          </tr>
+          <tr>
+            <td>NHDF</td>
+            <td id="nhdf"></td>
+          </tr>
+          <tr>
+            <td>Final Payee</td>
+            <td id="payee"></td>
+          </tr>
+          <tr>
+            <td>NHIF</td>
+            <td id="nhif"></td>
+          </tr>
+          <tr>
+            <td>Net Pay</td>
+            <td id="netPay"></td>
+          </tr>
+        </table>
+        <script src="script.js"></script>
+      </body>
+    </html>
+  </body>
+</html>
